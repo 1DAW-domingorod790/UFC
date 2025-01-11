@@ -52,6 +52,7 @@ body {
 .container-portada h1{
     -webkit-text-stroke: 1px black;
 }
+
 .eventos{
     display: flex;
     align-items: center;
@@ -64,13 +65,17 @@ body {
     text-align: center;
 }
 
-.entradas{
-    background-color: white;
-    color:black;
-    padding:10px;
-    border: 1px solid black;
-    border-radius: 10%;
+.cartelera{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
     display: inline-block;
+    transition: background-color 0.3s ease;
 }
 
 .eventos div{
@@ -86,9 +91,11 @@ img{
     border-radius: 20px;
 }
 
-.entradas:active{
-    font-style: none;
+.cartelera:link{
+    color:white;
+    text-decoration: none;
 }
+
 
 
 
