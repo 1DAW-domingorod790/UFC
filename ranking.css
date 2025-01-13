@@ -11,6 +11,7 @@ body{
     background-color: black;
     justify-content: space-between;
     font-size: 20px;
+    z-index: 1000;
 }
 
 .menu ul {
@@ -83,21 +84,21 @@ body{
 }
 
 .top1 img{
-    background-image: url(imagenes/rusia.png);
+    background-image: url(imagenes/banderas-paises/rusia.png);
     background-size: auto 100%;
 }
 
 .top2 img{
-    background-image: url(imagenes/brasil.png);
+    background-image: url(imagenes/banderas-paises/brasil.png);
     background-size: auto 110%;
 }
 
 .top3 img{
-    background-image: url(imagenes/eeuu.png);
+    background-image: url(imagenes/banderas-paises/eeuu.png);
     background-size: auto 100%;
 }
 
 .top4 img{
-    background-image: url(imagenes/espana.png);
+    background-image: url(imagenes/banderas-paises/espana.png);
     background-size: auto 100%;
 }

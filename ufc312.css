@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+}
+
+
+/* MENU */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin: 0;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu ul li a:hover {
+    background-color: #575757;
+}
+
+.menu .logo {
+    height: 60px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+/*TITULO*/
+.titulo-container{
+    display: grid;
+    place-items: center;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+
+/* CONTAINER */
+.container img{
+    width: 208px;
+    height: 150px;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+.container-contenido > div{
+    transition: all 0.3s;
+}
+
+.container-contenido > div:hover{
+    transform: scale(1.05);
+    background-color: red;
+    color:white;
+    border: 5px solid black;
+}
+
+.container-contenido{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 100px;
+}
+
+/*LUCHA 1*/
+.lucha1-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lucha1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lucha1-contenido{
+    padding: 0 20px;
+}
+
+.duplessis img{
+    background-image: url(imagenes/banderas-paises/sudafrica.webp);
+    border: 5px solid black;
+    background-size: auto 100%;
+}
+
+.sean img{
+    background-image: url(imagenes/banderas-paises/eeuu.png);
+    border: 5px solid black;
+    background-size: auto 100%;
+}
+
+
+/*LUCHA 2*/
+.lucha2-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lucha2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lucha2-contenido{
+    padding: 0 20px;
+}
+
+.zhang img{
+    background-image: url(imagenes/banderas-paises/china.png);
+    border: 5px solid black;
+    background-size: auto 100%;
+}
+
+.tatiana img{
+    background-image: url(imagenes/banderas-paises/eeuu.png);
+    border: 5px solid black;
+    background-size: auto 100%;
+}
+
+/*LUCHA 3*/
+.lucha3-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lucha3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lucha3-contenido{
+    padding: 0 20px;
+}
+
+.prochazca img{
+    background-image: url(imagenes/banderas-paises/republica_checa.svg);
+    border: 5px solid black;
+    background-size: auto 100%;
+}
+
+.hill img{
+    background-image: url(imagenes/banderas-paises/eeuu.png);
+    border: 5px solid black;
+    background-size: auto 100%;
+}
+
+
+.entradas{
+    display: grid;
+    place-items: center;
+    .cartelera{
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+    }
+}

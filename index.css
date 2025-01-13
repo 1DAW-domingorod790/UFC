@@ -1,8 +1,7 @@
-body {
+body{
     margin: 0;
     font-family: Arial, sans-serif;
     justify-content: center;
-
 }
 
 .menu {
@@ -44,9 +43,13 @@ body {
     height: 60px;
 }
 
-.container-portada{
+body{
     background-image: url(imagenes/topuria.webp);
     color:white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .container-portada h1{
