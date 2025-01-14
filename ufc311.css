@@ -71,13 +71,14 @@ img{
 
 /* CONTAINER */
 .container img{
-    width: 208px;
-    height: 150px;
+    width: 150px;
+    height: 100px;
 }
 
 .container{
     display: grid;
     place-items: center;
+    font-size: 13px;
 }
 
 .container-contenido > div{

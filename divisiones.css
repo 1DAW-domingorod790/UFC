@@ -2,7 +2,9 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
     justify-content: center;
+
 }
+
 
 .menu {
     position: fixed;
@@ -65,13 +67,14 @@ border-radius: 20px;
 
 /*CONTAINER*/
 .container img {
-    width: 250px;
-    height: 165px;
+    width: 150px;
+    height: 100px;
 }
 
 .container{
     display: grid;
     place-items: center;
+    font-size: 10px;
 }
 
 
@@ -152,7 +155,7 @@ border-radius: 20px;
 
 .ligero > .campeon img{
     background-image: url(imagenes/banderas-paises/rusia.png);
-    background-size: auto 105%;
+    background-size: auto 100%;
 }
 
 .welter > .campeon img{
@@ -162,7 +165,7 @@ border-radius: 20px;
 
 .medio > .campeon img{
     background-image: url(imagenes/banderas-paises/sudafrica.webp);
-    background-size: auto 105%;
+    background-size: auto 100%;
 }
 
 .semipesado > .campeon img{

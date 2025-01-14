@@ -57,34 +57,42 @@ body{
     color: #d20a0a;
 }
 
+.container-contenido{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px;
+    display: inline-block;
+    font-size: 13px;
+}
 
-.container div{
+.container-contenido div{
     display: flex;
     justify-content: center;
     border: 7px solid black;
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
     font-weight: bold;
     transition: all 0.3s;
 }
 
-.container div h1{
-    font-size: 25px;
+.container-contenido div h1{
+    font-size: 15px;
 }
 
-.container div iframe{
-    width: 310px;
-    height: 165px;
+.container-contenido div iframe{
+    width: 200px;
+    height: 135px;
 }
 
-.container div:hover{
+.container-contenido div:hover{
     transform: scale(1.05);
     background-color: red;
     color:white;
 }
 
-.container div img{
+.container-contenido div img{
     border: 5px solid black;
+    width: 150px;
+    height: 90px;
 }
 
 .top1 img{
