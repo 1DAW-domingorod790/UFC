@@ -46,11 +46,15 @@ body{
 
 .titulo{
     display: inline-block;
-    padding: 15px;
+    border-bottom: 3px solid #d20a0a;
 }
 
 .titulo h1{
     font-size: 35px;
+}
+
+.num{
+    color: #d20a0a;
 }
 
 
@@ -69,8 +73,8 @@ body{
 }
 
 .container div iframe{
-    width: 340px;
-    height: 175px;
+    width: 310px;
+    height: 165px;
 }
 
 .container div:hover{

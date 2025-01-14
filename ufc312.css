@@ -56,8 +56,16 @@ img{
     place-items: center;
 }
 
+.titulo h1{
+    text-align: center;
+}
+
 .titulo{
-    font-size: 40px;
+    border-bottom: 3px solid #d20a0a;
+}
+
+.num{
+    color: #d20a0a;
 }
 
 
@@ -154,40 +162,6 @@ img{
     border: 5px solid black;
     background-size: auto 100%;
 }
-
-/*LUCHA 3*/
-.lucha3-container{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-    padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.lucha3{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.lucha3-contenido{
-    padding: 0 20px;
-}
-
-.prochazca img{
-    background-image: url(imagenes/banderas-paises/republica_checa.svg);
-    border: 5px solid black;
-    background-size: auto 100%;
-}
-
-.hill img{
-    background-image: url(imagenes/banderas-paises/eeuu.png);
-    border: 5px solid black;
-    background-size: auto 100%;
-}
-
 
 .entradas{
     display: grid;

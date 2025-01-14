@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin: 0;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu ul li a:hover {
+    background-color: #575757;
+}
+
+.menu .logo{
+    height: 60px;
+}
+
+.menu img{
+border-radius: 20px;
+}
+
+/*TITULO*/
+.container-titulo{
+    display: grid;
+    place-items: center;
+}
+
+.titulo{
+    border-bottom: 3px solid #d20a0a;
+    text-align: center;
+}
+
+.titulo .num{
+    color: red;
+}
+
+/*CONTAINER*/
+.container img {
+    width: 250px;
+    height: 165px;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+
+.container-contenido{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.container1 > div .campeon{
+    padding: 15px;
+    text-align: center;
+}
+
+.container1 > div{
+    border-bottom: 3px solid #d20a0a;
+    transition: all 0.3s;
+    padding: 15px;
+}
+
+.container1 > div:hover{
+    transform: scale(1.05);
+    background-color: red;
+    color:white;
+    border:5px solid black;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+.container2 > div .campeon{
+    padding: 15px;
+    text-align: center;
+}
+
+.container2 > div{
+    transition: all 0.3s;
+    padding: 15px;
+}
+
+.container2 > div:hover{
+    transform: scale(1.05);
+    background-color: red;
+    color:white;
+    border:5px solid black;
+}
+
+
+.campeon h3{
+    color:red;
+}
+
+.campeon img{
+    border: 5px solid black;
+}
+
+.mosca > .campeon img{
+    background-image: url(imagenes/banderas-paises/brasil.png);
+    background-size: auto 100%;
+}
+
+.gallo > .campeon img{
+    background-image: url(imagenes/banderas-paises/georgia.webp);
+    background-size: auto 100%;
+}
+
+.pluma > .campeon img{
+    background-image: url(imagenes/banderas-paises/espana.png);
+    background-size: auto 100%;
+}
+
+.ligero > .campeon img{
+    background-image: url(imagenes/banderas-paises/rusia.png);
+    background-size: auto 105%;
+}
+
+.welter > .campeon img{
+    background-image: url(imagenes/banderas-paises/eeuu.png);
+    background-size: auto 100%;
+}
+
+.medio > .campeon img{
+    background-image: url(imagenes/banderas-paises/sudafrica.webp);
+    background-size: auto 105%;
+}
+
+.semipesado > .campeon img{
+    background-image: url(imagenes/banderas-paises/brasil.png);
+    background-size: auto 100%;
+}
+
+.pesado > .campeon img{
+    background-image: url(imagenes/banderas-paises/eeuu.png);
+    background-size: auto 100%;
+}

@@ -56,8 +56,16 @@ img{
     place-items: center;
 }
 
+.titulo h1{
+    text-align: center;
+}
+
 .titulo{
-    font-size: 40px;
+    border-bottom: 3px solid #d20a0a;
+}
+
+.num{
+    color: #d20a0a;
 }
 
 
