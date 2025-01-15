@@ -88,6 +88,10 @@ border-radius: 20px;
     justify-content: center;
 }
 
+.container .campeon  h3{
+    color:red;
+}
+
 .container1 > div .campeon{
     padding: 15px;
     text-align: center;
@@ -95,7 +99,7 @@ border-radius: 20px;
 
 .container1 > div{
     border-bottom: 3px solid #d20a0a;
-    transition: all 0.3s;
+    transition: all 0.5s;
     padding: 15px;
 }
 
@@ -118,7 +122,7 @@ border-radius: 20px;
 }
 
 .container2 > div{
-    transition: all 0.3s;
+    transition: all 0.5s;
     padding: 15px;
 }
 
@@ -129,10 +133,6 @@ border-radius: 20px;
     border:5px solid black;
 }
 
-
-.campeon h3{
-    color:red;
-}
 
 .campeon img{
     border: 5px solid black;
