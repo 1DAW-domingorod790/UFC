@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="imagenes/ufc_logo2.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTRADAS - UFC</title>
+    <link rel="stylesheet" href="entradas.css">
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <a href="index.html"><img src="imagenes/ufc_logo.jpg" alt="Logo" class="logo"></a>
+        </ul>
+    </nav>
+
+    <br><br><br><br>
+
+    <!--TITULO-->
+    <div class="container-titulo"> <!--para decorar el div "titulo"-->
+        <div class="titulo"> <!--div con el contenido-->
+            <h1>ENTRADAS UFC <span class="num">311</span> / <span class="num">312</span></h1>
+            <h3>DOMINGO <span class="num">19</span> ENERO / <span class="num">9</span> FEBRERO</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="contenido">
+            <form method="post" enctype="text/plain">
+                <div class="principal">
+                <div class="datos-personales">
+                    <h3>DATOS PERSONALES (* pregunta obligatoria)</h3>
+                    <label class="label" for="nombre">Nombre completo*</label>
+                    <input type="text" id="nombre" class="input" required>
+
+                    <label class="label" for="email">Email*</label>
+                    <input type="email" id="email" class="input" required>
+
+                    <label class="label" for="dni">DNI / Pasaporte*</label>
+                    <input type="text" id="dni" class="input" required>
+
+                    <label class="label" for="tlf">Teléfono*</label>
+                    <input type="text" id="tlf" class="input" required>
+
+                <div class="nacimiento">
+                    <span class="nac-label">F. nacimiento*</span>
+                    <div class="select">
+                    <select class="nac-select" name="dia">
+                        <option value="" selected>día</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select class="nac-select" name="mes">
+                        <option value="" selected>mes</option>
+                        <option value="1">Enero</option>
+                        <option value="2">Febrero</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Mayo</option>
+                        <option value="6">Junio</option>
+                        <option value="7">Julio</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                    </select>
+                    <select class="nac-select" name="anio">
+                        <option value="" selected>año</option>
+                        <option value="2024">2007</option>
+                        <option value="2023">2006</option>
+                        <option value="2022">2005</option>
+                        <option value="2021">2004</option>
+                        <option value="2020">2003</option>
+                        <option value="2019">2002</option>
+                        <option value="2018">2001</option>
+                        <option value="2017">2000</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="genero">
+                <span class="nac-label">Genero*</span>
+                <div class="select">
+                    <input type="radio" id="h" name="as" value="h">
+                        <label for="h">Hombre</label>
+                        <input type="radio" id="m" name="as" value="m">
+                        <label for="m">Mujer</label>
+                    </div>
+                </div>
+                </div>
+
+                <div class="info-evento">
+                    <h3>INFORMACIÓN DEL EVENTO</h3>
+                    <div class="evento">
+                        <span>Selecciona evento*</span>
+                            <div class="select">
+                            <select>
+                                <option>UFC 311 - 19/1</option>
+                                <option>UFC 312 - 9/2</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="asiento">
+                        <span>Selecciona asiento* </span>
+                            <div class="select">
+                            <select>
+                                <option>VIP</option>
+                                <option>Grada</option>
+                                <option>Octogono</option>
+                            </select>
+                            </div>
+                    </div>
+                <div class="terminos">
+                    
+                    <label for="terminos" class="label">Confirmo que he leído y acepto los términos y condiciones</label><br>
+                    <input type="checkbox" id="terminos" class="input">
+                </div>
+                <br><br>
+                <div class="img">
+                    <img src="imagenes/ufc-octagon.jpg" width="350px" height="215px">
+                </div>
+                </div>
+            </div>
+            <br><br>
+                <div class="comprar-entradas">
+                    <input type="submit"value="comprar entradas">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

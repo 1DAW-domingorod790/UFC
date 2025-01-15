@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu .logo{
+    height: 60px;
+}
+
+.menu img{
+border-radius: 20px;
+}
+
+/*TITULO*/
+.container-titulo{
+    display: grid;
+    place-items: center;
+}
+
+.titulo{
+    border-bottom: 3px solid #d20a0a;
+    text-align: center;
+}
+
+.titulo .num{
+    color: red;
+}
+
+/*FORMULARIO*/
+.container{
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.label{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.nacimiento{
+    width:96.5%;
+    display: flex;
+    gap: 100px;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px;
+    align-items: center;
+    color: #666;
+}
+
+.select > select{
+    border:1px solid #666;
+}
+
+.nac-select{
+    flex: 1;
+    padding: 8px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+}
+
+.genero{
+    width:94.5%;
+    display: flex;
+    gap: 100px;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px;
+    align-items: center;
+    color: #666;
+    margin-top: 20px;
+    
+}
+
+.datos-personales{
+    flex:1;
+    border-right: 3px solid #e0e0e0;;
+    padding:10px;
+}
+
+.info-evento{
+    flex:1;
+    padding:10px;
+}
+
+.asiento{
+    width:96.5%;
+    display: flex;
+    gap: 100px;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px;
+    align-items: center;
+    color: #666;
+}
+
+.asiento select, span{
+    margin-bottom: 10px;
+}
+
+.evento{
+    width:96.5%;
+    display: flex;
+    gap: 100px;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px;
+    align-items: center;
+    color: #666;
+}
+
+.evento select, span{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.terminos{
+    display: flex;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px;
+}
+
+.img{
+    display: grid;
+    justify-content: center;
+}
+
+.principal{
+    display:flex;
+}
+
+.comprar-entradas{
+    display: grid;
+    place-items: center;
+}
+
+.contenido{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+form{
+    margin: 20px auto;
+    max-width: 100%;
+}
+
