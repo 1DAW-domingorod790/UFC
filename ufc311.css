@@ -84,9 +84,6 @@ img{
 /*LUCHA 1*/
 .lucha1-container{
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
     text-align: center;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -94,7 +91,6 @@ img{
 
 .lucha1{
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -118,9 +114,6 @@ img{
 /*LUCHA 2*/
 .lucha2-container{
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
     text-align: center;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -151,9 +144,6 @@ img{
 /*LUCHA 3*/
 .lucha3-container{
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
     text-align: center;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

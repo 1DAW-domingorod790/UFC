@@ -12,6 +12,7 @@ body{
     background-color: black;
     justify-content: space-between;
     font-size: 20px;
+    z-index: 1000;
 }
 
 .menu ul {
