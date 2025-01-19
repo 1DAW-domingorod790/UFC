@@ -4,7 +4,7 @@ body{
     justify-content: center;
 }
 
-
+/*MENU*/
 .menu {
     position: fixed;
     top: 0;
@@ -52,51 +52,51 @@ border-radius: 20px;
 
 .container{
     display: grid;
-    place-items: center;
+    place-items: center; /*centra el contenido*/
     font-size: 10px;
 }
 
 .container-contenido{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*sombra*/
     padding: 50px;
 }
 
 .container1{
     display: flex;
-    justify-content: center;
+    justify-content: center; /*centra el contenido*/
 }
 
 .container .campeon  h3{
-    color:red;
+    color:red; /*color de la letra*/
 }
 
 .container1 > div .campeon{
     padding: 15px;
-    text-align: center;
+    text-align: center; /*centra el texto*/
 }
 
 .container1 > div{
-    border-bottom: 3px solid #d20a0a;
+    border-bottom: 3px solid #d20a0a; /*linea de separacion*/
     transition: all 0.5s;
     padding: 15px;
 }
 
 .container1 > div:hover{
-    transform: scale(1.05);
-    background-color: red;
-    color:white;
-    border:5px solid black;
+    transform: scale(1.05); /*aumenta el tamaño*/
+    background-color: red; /*color de fondo*/
+    color:white; /*color de la letra*/
+    border:5px solid black; /*borde*/
 }
 
 
 .container2{
     display: flex;
-    justify-content: center;
+    justify-content: center; /*centra el contenido*/
 }
 
 .container2 > div .campeon{
     padding: 15px;
-    text-align: center;
+    text-align: center; /*centra el texto*/
 }
 
 .container2 > div{
@@ -105,7 +105,7 @@ border-radius: 20px;
 }
 
 .container2 > div:hover{
-    transform: scale(1.05);
+    transform: scale(1.05); 
     background-color: red;
     color:white;
     border:5px solid black;
@@ -117,8 +117,8 @@ border-radius: 20px;
 }
 
 .mosca > .campeon img{
-    background-image: url(imagenes/banderas-paises/brasil.png);
-    background-size: auto 100%;
+    background-image: url(imagenes/banderas-paises/brasil.png); /*imagen de fondo*/
+    background-size: auto 100%; /*tamaño de la imagen*/
 }
 
 .gallo > .campeon img{

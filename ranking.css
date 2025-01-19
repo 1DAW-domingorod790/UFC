@@ -4,12 +4,12 @@ body{
 }
 
 .menu {
-    position: fixed;
+    position: fixed; /*fija el menu en la parte superior de la pantalla*/
     top: 0;
     left: 0;
     width: 100%;
     background-color: black;
-    z-index: 1000;
+    z-index: 1000; /*para que se superponga*/
 }
 
 .menu ul {
@@ -43,7 +43,7 @@ border-radius: 20px;
 .container-contenido{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 40px;
-    display: inline-block;
+    display: inline-block; /*para que el contenido se muestre en una linea*/
     font-size: 13px;
 }
 

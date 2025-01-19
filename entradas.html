@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="entradas.css">
 </head>
 <body>
+    <!--MENU PARA VOLVER AL INDICE-->
     <nav class="menu">
         <ul>
             <a href="index.html"><img src="imagenes/ufc_logo.jpg" alt="Logo" class="logo"></a>
@@ -24,9 +25,10 @@
         </div>
     </div>
 
+    <!--CONTENIDO DEL FORMULARIO-->
     <div class="container">
-        <div class="contenido">
-            <form method="post" enctype="text/plain">
+        <div class="contenido"> <!--para decorar el div "contenido"-->
+            <form method="post" enctype="text/plain"> <!--formulario para enviar los datos-->
                 <div class="principal">
                 <div class="datos-personales">
                     <h3>DATOS PERSONALES (* pregunta obligatoria)</h3>
@@ -142,8 +144,8 @@
                     </div>
                 <div class="terminos">
                     
-                    <label for="terminos" class="label">Confirmo que he leído y acepto los términos y condiciones</label><br>
-                    <input type="checkbox" id="terminos" class="input">
+                    <label for="terminos" class="label">Confirmo que he leído y acepto los términos y condiciones*</label><br>
+                    <input type="checkbox" id="terminos" class="input" required>
                 </div>
                 <br><br>
                 <div class="img">

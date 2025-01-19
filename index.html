@@ -8,25 +8,30 @@
         body {
             justify-content: center;
             align-items: center;
-            height: 100vh;
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
-            background-image: url(imagenes/ufc-octagon.jpg);
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
+            background-image: url(imagenes/ufc2.webp);
+            background-attachment: fixed; /*para que la imagen no se mueva al hacer scroll*/
+            background-repeat: no-repeat; /*para que no se repita la imagen*/
+            background-position: center center; /*para que la imagen se centre*/
+            background-size: cover; /*para que la imagen se ajuste al tamaño de la pantalla*/
+            display:grid;
+            min-height: 100dvh; /*100% del viewport height*/
+            grid-template-rows: 
+            auto 
+            1fr 
+            auto; /*para que el footer se quede debajo siempre*/
         }
 
         .menu {
-            position: fixed;
+            position: fixed; /*para que se quede fijo en la parte superior*/
             top: 0;
             left: 0;
             width: 100%;
             background-color: black;
-            justify-content: space-between;
+            justify-content: space-between; /*para que los elementos se separen*/
             font-size: 20px;
-            z-index: 1000;
+            z-index: 1000; /*para que esté por encima de todo*/
         }
 
         .menu ul {
@@ -42,11 +47,11 @@
         }
 
         .menu ul li a {
-            display: block;
+            display: block; /*para que todo el enlace sea clickeable*/
             padding: 15px 20px;
             text-decoration: none;
             color: white;
-            font-weight: bold;
+            font-weight: bold; /*para que se vea más grande y negrita*/
             text-align: center;
         }
 
@@ -63,9 +68,9 @@
         }
 
         .titulo > h1{
-            text-decoration: underline;
-            text-shadow: 3px 3px #575757;
 
+            text-shadow: 3px 3px #575757;
+            font-size: 50px;
         }
 
         .titulo > h2{
@@ -74,7 +79,7 @@
         }
 
         .num{
-            color: red;
+            text-decoration: underline; /*para que subraye el texto*/
         }
 
         .container-titulo {
@@ -86,7 +91,6 @@
 
         .titulo{
             display: inline-block;
-            border-bottom: 3px solid red;
         }
 
         .main-container {
@@ -99,7 +103,7 @@
         }
 
         .container div {
-            box-sizing: border-box;
+            box-sizing: border-box; /*para que el padding no afecte al tamaño del div*/
             padding: 15px;
         }
 
@@ -109,9 +113,43 @@
             border: 3px solid black;
         }
 
+        .footer{
+            display: grid;
+            place-items: center;
+            color:white;
+            height:min-content; /*para que el footer no se quede pegado al final*/
+        }
+
+        .links{
+            display: flex;
+            justify-content: center;
+            gap:10px; /*para que haya un espacio entre los links*/
+        }
+
+        .links > div{
+            display: inline-block;
+            padding: 10px; 
+        }
+
+        .links a:link, .links a:visited{
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .links a:hover, .links a:active, .links a:focus{
+            background-color: red;
+        }
+
+
     </style>
 </head>
 <body>
+
+    <!--MENU COMPLETO-->
     <nav class="menu">
         <ul>
             <li><a href="eventos.html">LO PRÓXIMO</a></li>
@@ -125,30 +163,25 @@
         </ul>
     </nav>
 
-    <br><br><br>
+    <br>
 
+    <!--CONTAINER PARA DECORAR-->
     <div class="container-titulo">
+        <!--TITULO-->
         <div class="titulo">
             <h1><span class="num">U</span>ltimate <span class="num">F</span>ighting <span class="num">C</span>hampionship</h1>
             <h2>EL MAYOR ENTRETENIMIENTO DE LAS MMA</h2>
+            <div class="links">
+                <a href="eventos.html" class="eventos"><b>PRÓXIMOS EVENTOS</b></a>
+                <a href="entradas.html" class="cartelera"><b>COMPRAR ENTRADAS</b></a>
+            </div>
         </div>
     </div>
 
+    <!--CREADOR-->
+    <div class="footer">
+        <footer><b>Domingo Rodríguez Rodríguez</b></footer>
+    </div>
     <br>
-
-    <div class="main-container">
-        <div class="container">
-            <div><img src="imagenes/luchadores/jones.webp"></div>
-            <div><img src="imagenes/luchadores/khabib.avif"></div>
-            <div><img src="imagenes/luchadores/mcgregor2.jpg"></div>
-            <div><img src="imagenes/luchadores/makhachev2.jpeg"></div>
-        </div>
-        <div class="container">
-            <div><img src="imagenes/luchadores/topuria2.jpeg"></div>
-            <div><img src="imagenes/luchadores/pereira2.jpg"></div>
-            <div><img src="imagenes/luchadores/israel.jpg"></div>
-            <div><img src="imagenes/luchadores/holloway.webp"></div>
-        </div>
-    </div>
 </body>
 </html>

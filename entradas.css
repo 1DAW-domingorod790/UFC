@@ -4,20 +4,21 @@ body{
     justify-content: center;
 }
 
+/*MENU*/
 .menu {
-    position: fixed;
+    position: fixed; /*fija el menu en la parte superior de la pantalla*/
     top: 0;
     left: 0;
     width: 100%;
     background-color: black;
-    z-index: 1000;
+    z-index: 1000; /*para que se superponga*/
 }
 
 .menu ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; /*centra los elementos*/
 }
 
 .menu .logo{
@@ -31,11 +32,11 @@ border-radius: 20px;
 /*TITULO*/
 .container-titulo{
     display: grid;
-    place-items: center;
-}
+    place-items: center; /*centra el contenido*/
+} 
 
 .titulo{
-    border-bottom: 3px solid #d20a0a;
+    border-bottom: 3px solid #d20a0a; /*linea inferior*/
     text-align: center;
 }
 
@@ -54,18 +55,18 @@ border-radius: 20px;
     font-size: 14px;
     color: #666;
     margin-bottom: 5px;
-    display: block;
+    display: block; /*para que el label se muestre en una linea*/
 }
 
 .input{
     width: 100%;
     padding: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 15px; /*espacio entre los inputs*/
     border: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; /*linea inferior*/
     outline: none;
     font-size: 16px;
-    box-sizing: border-box;
+    box-sizing: border-box; /*para que el padding no afecte el tamaño del input*/
 }
 
 .nacimiento{
@@ -86,10 +87,10 @@ border-radius: 20px;
     flex: 1;
     padding: 8px;
     border: none;
-    background: transparent;
-    cursor: pointer;
-    outline: none;
-    appearance: none;
+    background: transparent; 
+    cursor: pointer; 
+    outline: none; /*quita el borde*/
+    appearance: none; /*quita la flecha del select*/
 }
 
 .genero{

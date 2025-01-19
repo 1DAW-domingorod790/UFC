@@ -4,20 +4,21 @@ body{
     justify-content: center;
 }
 
+/*MENU*/
 .menu {
-    position: fixed;
+    position: fixed; /*fija el menu en la parte superior de la pantalla*/
     top: 0;
     left: 0;
     width: 100%;
     background-color: black;
-    z-index: 1000;
+    z-index: 1000; /*para que se superponga*/
 }
 
 .menu ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; /*centra los elementos*/
 }
 
 .menu .logo{
@@ -31,14 +32,14 @@ border-radius: 20px;
 body{
     background-image: url(imagenes/topuria.webp);
     color:white;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-attachment: fixed; /*fija la imagen de fondo*/
+    background-repeat: no-repeat; /*no se repita la imagen*/
+    background-position: center center; /*centra la imagen*/
+    background-size: cover; /*la imagen se ajuste al tamaño de la página*/
 }
 
-.container-portada h1{
-    -webkit-text-stroke: 1px black;
+.eventos h2, .eventos h3, .container-portada h1{
+    text-shadow: 2px 2px 2px black;
 }
 
 .eventos{
@@ -61,9 +62,9 @@ body{
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    transition: background-color 0.3s ease;
+    text-decoration: none; /*quita el subrayado del link*/
+    display: inline-block; /*para que el boton se muestre en una linea*/
+    transition: 0.3s ease;
 }
 
 .eventos div{
@@ -92,6 +93,10 @@ img{
     background-color: red;
 }
 
+.eventos img{
+    width: 390px;
+    height: 270px;
+}
 
 
 

@@ -7,12 +7,12 @@ body {
 
 /* MENU */
 .menu {
-    position: fixed;
+    position: fixed; /*fija el menu en la parte superior de la pantalla*/
     top: 0;
     left: 0;
     width: 100%;
     background-color: black;
-    z-index: 1000;
+    z-index: 1000; /*para que se superponga*/
 }
 
 .menu ul {
@@ -88,7 +88,7 @@ img{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    position: relative;
+    position: relative; /*para que el contenido no se salga del contenedor*/
     text-align: center;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -122,7 +122,7 @@ img{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    position: relative;
+    position: relative; /*para que el contenido no se salga del contenedor*/
     text-align: center;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

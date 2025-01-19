@@ -7,12 +7,12 @@ body {
 
 /* MENU */
 .menu {
-    position: fixed;
+    position: fixed; /*fija el menu en la parte superior de la pantalla*/
     top: 0;
     left: 0;
     width: 100%;
     background-color: black;
-    z-index: 1000;
+    z-index: 1000; /*para que se superponga*/
 }
 
 .menu ul {
@@ -123,7 +123,7 @@ img{
 
 .lucha2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*separacion entre elementos*/
     align-items: center;
 }
 
@@ -153,7 +153,7 @@ img{
 
 .lucha3{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*separacion entre elementos*/
     align-items: center;
 }
 
@@ -177,7 +177,7 @@ img{
     display: inline-block;
 }
 
-.entradas a:link, .entradas a:visited, a:focus {
+.entradas a:link, .entradas a:visited{
     background-color: #f44336;
     color: white;
     padding: 14px 25px;
@@ -186,6 +186,6 @@ img{
     display: inline-block;
 }
 
-.entradas a:hover, .entradas a:active {
+.entradas a:hover, .entradas a:active, .entradas a:focus{
     background-color: red;
 }
