@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu .logo{
+    height: 60px;
+}
+
+.menu img{
+border-radius: 20px;
+}
+
+body{
+    background-image: url(imagenes/topuria.webp);
+    color:white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container-portada h1{
+    -webkit-text-stroke: 1px black;
+}
+
+.eventos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.eventos div{
+    margin:25px;
+    text-align: center;
+}
+
+.cartelera{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.eventos div{
+    transition: all 0.3s;
+}
+
+.eventos div:hover{
+    transform: scale(1.1);
+}
+
+img{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.cartelera a:link, .cartelera a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.cartelera a:hover, .cartelera a:active {
+    background-color: red;
+}
+
+
+
+

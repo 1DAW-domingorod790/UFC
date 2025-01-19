@@ -20,7 +20,7 @@
     <div class="container-titulo"> <!--para decorar el div "titulo"-->
         <div class="titulo"> <!--div con el contenido-->
             <h1>ENTRADAS UFC <span class="num">311</span> / <span class="num">312</span></h1>
-            <h3>DOMINGO <span class="num">19</span> ENERO / <span class="num">9</span> FEBRERO</h3>
+            <h3>DOMINGO <span class="num">19</span> <sup>ENERO</sup> / <span class="num">9</span> <sup>FEBRERO</sup></h3>
         </div>
     </div>
 
@@ -149,6 +149,10 @@
                 <div class="img">
                     <img src="imagenes/ufc-octagon.jpg" width="350px" height="215px">
                 </div>
+                <br>
+                    <label for="rating">Califica este formulario:</label>
+                    <input type="range" id="rating" name="rating" min="0" max="10" step="1" oninput="this.nextElementSibling.value = this.value">
+                    <output>5</output>
                 </div>
             </div>
             <br><br>
