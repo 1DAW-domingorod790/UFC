@@ -93,6 +93,7 @@ img{
 
 .lucha1{
     display: flex;
+    justify-content: space-between; /*separacion entre elementos*/
     align-items: center;
 }
 
